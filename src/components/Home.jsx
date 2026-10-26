@@ -16,13 +16,31 @@ function Home() {
         <h3 className="mb-4">Popular Courses</h3>
         <div className="row">
           <div className="col-md-4 mb-3">
-            <CourseCard name="Web Development" description="Learn HTML, CSS and React" duration="6 weeks" buttonText="Explore" />
+            <CourseCard
+              name="Web Development"
+              image="https://loremflickr.com/400/220/laptop,coding"
+              description="Learn HTML, CSS and React"
+              duration="6 weeks"
+              buttonText="Explore"
+            />
           </div>
           <div className="col-md-4 mb-3">
-            <CourseCard name="Database Basics" description="Understand SQL and data" duration="4 weeks" buttonText="Explore" />
+            <CourseCard
+              name="Database Basics"
+              image="https://loremflickr.com/400/220/server,database"
+              description="Understand SQL and data"
+              duration="4 weeks"
+              buttonText="Explore"
+            />
           </div>
           <div className="col-md-4 mb-3">
-            <CourseCard name="Mobile Apps" description="Build apps for phones" duration="8 weeks" buttonText="Explore" />
+            <CourseCard
+              name="Mobile Apps"
+              image="https://loremflickr.com/400/220/smartphone,app"
+              description="Build apps for phones"
+              duration="8 weeks"
+              buttonText="Explore"
+            />
           </div>
         </div>
       </div>
