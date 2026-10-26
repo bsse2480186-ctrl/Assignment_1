@@ -19,7 +19,7 @@ function Courses() {
         <div className="col-md-4 mb-3">
           <CourseCard
             name="Web Development"
-            image="https://loremflickr.com/400/220/laptop,coding"
+            image="/images/web.jpg"
             description="Learn HTML, CSS and React"
             duration="6 weeks"
             buttonText="Select Course"
@@ -29,7 +29,7 @@ function Courses() {
         <div className="col-md-4 mb-3">
           <CourseCard
             name="Database Basics"
-            image="https://loremflickr.com/400/220/server,database"
+            image="/images/database.jpg"
             description="Understand SQL and data"
             duration="4 weeks"
             buttonText="Select Course"
@@ -39,7 +39,7 @@ function Courses() {
         <div className="col-md-4 mb-3">
           <CourseCard
             name="Mobile Apps"
-            image="https://loremflickr.com/400/220/smartphone,app"
+            image="/images/mobile.jpg"
             description="Build apps for phones"
             duration="8 weeks"
             buttonText="Select Course"
